@@ -9,6 +9,8 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.2.4",
   "com.google.apis" % "google-api-services-gmail" % "v1-rev15-1.19.0",
-  "org.reactivemongo" %% "reactivemongo" % "0.10.5.0.akka22"
+  "org.reactivemongo" %% "reactivemongo" % "0.10.5.0.akka22",
+   "org.apache.spark" % "spark-core_2.10" % "1.1.1" % "provided",
+   "org.apache.spark" % "spark-graphx_2.10" % "1.1.1" % "provided"
 )
   
